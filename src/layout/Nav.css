@@ -1,0 +1,6 @@
+nav {
+  grid-area: nav;
+
+  margin-left: 0.5rem;
+  background-color: wheat;
+}

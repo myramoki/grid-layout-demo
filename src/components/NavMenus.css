@@ -1,0 +1,21 @@
+nav > menugroup {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+}
+
+nav > menugroup > * {
+  padding: 2px 4px;
+  margin: 2px;
+}
+
+nav > menugroup > lbl {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+nav > menugroup > menu {
+  display: block;
+  padding: 2px 4px 2px 1em;
+}

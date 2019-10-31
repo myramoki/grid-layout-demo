@@ -1,0 +1,24 @@
+header {
+  padding: 4px 6px;
+
+  display: flex;
+  align-items: baseline;
+  background-color: #ccc;
+}
+
+header > logo,
+header > menu,
+header > filler {
+  padding: 2px 4px;
+  margin: 2px;
+}
+
+header > filler {
+  margin-left: auto;
+}
+
+header > logo {
+  font-size: 1.4em;
+  font-style: italic;
+  margin-right: 2em;
+}
